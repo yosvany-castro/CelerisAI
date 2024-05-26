@@ -1,8 +1,8 @@
 const path = require('path');
 
 module.exports = {
-  mode: 'production', // Cambia a 'development' si estás en modo de desarrollo
-  entry: './src/index.js', // Asegúrate de que este archivo existe y es el punto de entrada de tu aplicación
+  mode: 'production',
+  entry: './src/index.js',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
